@@ -1,0 +1,127 @@
+/* Whole page */
+
+body {
+    background-color: black;
+    color: yellow;
+    padding-top: 20px;
+    overflow-x: hidden;
+    max-width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: monospace;
+}
+
+/* Navbar */
+
+header {
+    color: white;
+    background-color: #383737;
+    position: fixed;
+    width: 50em;
+    height: 40px;
+    top: 10px;
+}
+
+header h1 {
+    margin-left: 10vh;
+    margin-top: 10px;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+}
+
+header a {
+    margin-left: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Headers */
+
+h2 {
+    color: greenyellow;
+}
+
+h3 {
+    color: skyblue;
+}
+
+h4 {
+    color: white;
+}
+
+h5 {
+    color: mediumpurple;
+}
+
+h6 {
+    color: sandybrown;
+}
+
+/* Various tags */
+
+hr {
+    margin-bottom: 100px;
+}
+
+strong,
+ul {
+    color: red !important;
+}
+
+em,
+ol {
+    color: aqua !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: mediumpurple;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+a:active {
+    color: dimgray;
+    ;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #383737;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #999;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+/* Classes */
+
+._block {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+._blockC {
+    text-align: left;
+    font-size: 25px;
+}
+
+.wrap {
+    margin-top: 7em
+}
